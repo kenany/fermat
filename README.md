@@ -28,5 +28,5 @@ var fermat = require('fermat');
 
 ### `fermat(n)`
 
-Returns `true` is `n` is _probably_ prime. Returns `false` otherwise. `n` can be
+Returns `true` if `n` is _probably_ prime. Returns `false` otherwise. `n` can be
 either a _Number_ or a _String_.
