@@ -1,6 +1,6 @@
 {
   "name": "fermat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fermat's probabilistic primality test",
   "keywords": [
     "math",
