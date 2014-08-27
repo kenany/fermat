@@ -2,7 +2,7 @@ var bn = require('bn');
 var isString = require('lodash.isstring');
 
 function nbs(s, base) {
-  base = base || 10
+  base = base || 10;
   var r = bn.nbi();
   return r.fromString(s, base);
 }
