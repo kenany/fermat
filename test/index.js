@@ -14,6 +14,14 @@ test('primes', function(t) {
   })
 });
 
+test('composites', function(t) {
+  t.plan(primes.length);
+
+  primes.forEach(function(p) {
+    t.notOk(fermat(p + 3), 'composite: ' + p + ' + 3');
+  })
+});
+
 test('carmichaels', function(t) {
   t.plan(carmichaels.length);
 
