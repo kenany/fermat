@@ -8,5 +8,5 @@ branches:
   only:
     - master
 before_install:
-  - npm install -g npm
+  - npm install -g npm@1.4.26
   - npm --version
