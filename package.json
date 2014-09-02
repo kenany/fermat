@@ -25,6 +25,7 @@
     "lodash.isstring": "^2.4.1"
   },
   "devDependencies": {
+    "carmichaels": "^1.0.0",
     "tape": "^2.14.0"
   }
 }

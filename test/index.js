@@ -1,10 +1,9 @@
 var fermat = require('../');
 var test = require('tape');
+var carmichaels = require('carmichaels');
 
 var primes = require('./primes.json');
 primes = primes.slice(1);
-
-var carmichaels = require('./carmichaels.json');
 
 test('primes', function(t) {
   t.plan(primes.length);
