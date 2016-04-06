@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "bn": "^1.0.1",
-    "lodash.isstring": "^2.4.1"
+    "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
     "carmichaels": "^1.0.0",
