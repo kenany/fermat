@@ -1,7 +1,6 @@
 # fermat
 
 [![Build Status](https://img.shields.io/travis/KenanY/fermat.svg)](https://travis-ci.org/KenanY/fermat)
-[![Dependency Status](https://img.shields.io/gemnasium/KenanY/fermat.svg)](https://gemnasium.com/KenanY/fermat)
 
 Fermat's probabilistic primality test.
 
