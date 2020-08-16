@@ -25,6 +25,7 @@
     "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
+    "@kenan/renovate-config": "^1.4.0",
     "carmichaels": "^1.0.0",
     "tape": "^4.5.1"
   }
