@@ -1,7 +1,5 @@
 # fermat
 
-[![Build Status](https://img.shields.io/travis/KenanY/fermat.svg)](https://travis-ci.org/KenanY/fermat)
-
 Fermat's probabilistic primality test.
 
 ## Example
