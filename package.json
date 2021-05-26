@@ -27,6 +27,6 @@
   "devDependencies": {
     "@kenan/renovate-config": "^1.5.0",
     "carmichaels": "^1.0.0",
-    "tape": "^5.1.1"
+    "tape": "^5.2.2"
   }
 }
