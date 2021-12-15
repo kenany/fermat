@@ -1,12 +1,20 @@
 var bn = require('bn');
 var isString = require('lodash.isstring');
 
+/**
+ * @param {string} s
+ * @param {number} base
+ */
 function nbs(s, base) {
   base = base || 10;
   var r = bn.nbi();
   return r.fromString(s, base);
 }
 
+/**
+ * @param {number | string} n
+ * @returns {boolean}
+ */
 function fermat(n) {
   n = isString(n)
     ? nbs(n)
