@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/kenany/fermat/compare/2.0.0...3.0.0) (2023-09-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([1ab0d2a](https://github.com/kenany/fermat/commit/1ab0d2a29229ea0108fc410d65f33ec37b1683a5))
+
 ## [2.0.0](https://github.com/KenanY/fermat/compare/1.0.7...2.0.0) (2022-11-26)
 
 
