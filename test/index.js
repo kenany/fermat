@@ -1,8 +1,11 @@
-var fermat = require('../');
-var test = require('tape');
-var carmichaels = require('carmichaels');
+'use strict';
 
-var primes = require('./primes.json');
+const test = require('tape');
+const carmichaels = require('carmichaels');
+const fermat = require('../');
+
+let primes = require('./primes.json');
+
 primes = primes.slice(1);
 
 test('primes', function(t) {
@@ -10,7 +13,7 @@ test('primes', function(t) {
 
   primes.forEach(function(p) {
     t.ok(fermat(p), 'prime: ' + p);
-  })
+  });
 });
 
 test('composites', function(t) {
@@ -18,7 +21,7 @@ test('composites', function(t) {
 
   primes.forEach(function(p) {
     t.notOk(fermat(p + 3), 'composite: ' + p + ' + 3');
-  })
+  });
 });
 
 test('carmichaels', function(t) {

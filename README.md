@@ -5,7 +5,7 @@ Fermat's probabilistic primality test.
 ## Example
 
 ``` javascript
-var fermat = require('fermat');
+const fermat = require('fermat');
 
 fermat(7);
 // => true
@@ -23,7 +23,7 @@ $ npm install fermat
 ## API
 
 ``` javascript
-var fermat = require('fermat');
+const fermat = require('fermat');
 ```
 
 ### `fermat(n)`

@@ -1,5 +1,7 @@
-var bn = require('bn');
-var isString = require('lodash.isstring');
+'use strict';
+
+const bn = require('bn');
+const isString = require('lodash.isstring');
 
 /**
  * @param {string} s
@@ -7,7 +9,7 @@ var isString = require('lodash.isstring');
  */
 function nbs(s, base) {
   base = base || 10;
-  var r = bn.nbi();
+  const r = bn.nbi();
   return r.fromString(s, base);
 }
 
@@ -20,11 +22,11 @@ function fermat(n) {
     ? nbs(n)
     : bn.nbv(n);
 
-  var t = bn.nbv(1);
-  var bl = n.bitLength();
+  let t = bn.nbv(1);
+  let bl = n.bitLength();
   bl--;
-  var Bl = n.byteLength();
-  for (var i = bl; i >= 0; --i) {
+  const Bl = n.byteLength();
+  for (let i = bl; i >= 0; --i) {
     t = t.square();
     if (t.byteLength() > Bl) {
       t = t.mod(n);
