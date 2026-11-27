@@ -4,8 +4,8 @@ Fermat's probabilistic primality test.
 
 ## Example
 
-``` javascript
-const fermat = require('fermat');
+```javascript
+import { fermat } from 'fermat';
 
 fermat(7);
 // => true
@@ -16,17 +16,17 @@ fermat(561);
 
 ## Installation
 
-``` bash
+```bash
 $ npm install fermat
 ```
 
 ## API
 
-``` javascript
-const fermat = require('fermat');
+```javascript
+import { fermat } from 'fermat';
 ```
 
-### `fermat(n)`
+### `fermat(n: number | string): boolean`
 
 Returns `true` if `n` is _probably_ prime. Returns `false` otherwise. `n` can be
 either a _Number_ or a _String_.
